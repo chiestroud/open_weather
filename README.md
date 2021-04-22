@@ -1,5 +1,5 @@
-# React Template
+# Open-Weather API using React
 
-Use this template to get up and running quickly on projects. 
-- For setting up this template, [follow these instructions](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md).
-- [Steps to deploy](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33cac128-c6a6-44d4-a6e5-9732e8fba544/deploy-status)](https://app.netlify.com/sites/cs-open-weather/deploys)
+
+Currently simple function is setup to display today's temperature of the city of your choice.

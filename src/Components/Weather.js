@@ -13,7 +13,7 @@ function Weather() {
 
   return (
     <div className='Weather'>
-      <div>
+      <div className="hiddenDiv">
         {data
           ? <div>
             <h1>{data.name}</h1>
