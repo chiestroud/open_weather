@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from 'reactstrap';
 import getWeatherData from '../helpers/data/weatherData';
 import './Weather.scss';
 
@@ -17,7 +18,7 @@ function Weather() {
         {data
           ? <div className="weatherContainer">
             <h1>{data.name}</h1>
-            <img className="center" src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="img" />
+            <img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="img" />
             <p className="center">{data.weather[0].description}</p>
             <h1>{data.main.temp} degrees</h1>
           </div>
@@ -28,14 +29,14 @@ function Weather() {
           e.preventDefault();
           getWeather();
         }}>
-          <h2>Enter City Name</h2>
+          <h2>Watch The Weather</h2>
           <input
             type="text"
             placeholder="ZIP Code, City, etc"
             value={city}
             onChange={(e) => setCity(e.target.value)}
           />
-          <button type="submit">Submit</button>
+          <Button className="mt-2" color="success" size="lg" type="submit">Submit</Button>
           </form>
         </div>
     </div>
