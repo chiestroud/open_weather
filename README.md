@@ -9,6 +9,6 @@ https://cs-open-weather.netlify.app/
 ## Pictures of the app
 Page Load / Tokyo Weather / Alaska Weather
 
-<img src="./src/assets/weather.png">
-<img src="./src/assets/tokyo.png">
-<img src="./assets/alaska.png">
+<img src="./src/assets/weather.png" width="300">
+<img src="./src/assets/tokyo.png" width="300">
+<img src="./src/assets/alaska.png" width="300">
