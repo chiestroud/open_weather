@@ -9,4 +9,21 @@
 
 .hiddenDiv {
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  border: 2px solid gray;
+  background-color: gray;
+}
+
+img {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
